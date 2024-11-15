@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+input:focus{
+  outline: none;
+border: none;
+}
+.add:hover{
+  background-color: #0000002d;
+background-color: white !important;
+color: black !important;
+
+}
+/* App.css */
+.app {
+  display: flex;
+}
+.any{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  transition: margin-left 0.3s ease;
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.any::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.33);
+  z-index: 1;
+}
+.cc {
+  margin-left: 200px;
+}
+.cgcg{
+  margin-left: 60px;
+}
+
+.task-title{
+  background-color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
